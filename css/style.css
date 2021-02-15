@@ -9,10 +9,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.common-text {
+    color: #969696;
+    font-size: 16px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.mb-20px{
+    margin-bottom: 20px;
 }
 
 .mb-30px{
@@ -21,14 +30,20 @@ body {
 
 .wrapper {
     /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    width:80%;
+    width:70%;
     margin: auto;
     padding: 15px 0;
     /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
 }
 
+.img-container{
+    position:relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .img-layover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     position:absolute;
     width: 100%;
     height: 100%;
@@ -60,15 +75,13 @@ header .logo img {
 
 .menu-item a {
     text-decoration: none;
+    text-transform: uppercase;
     color: #8a8a8a;
 }
 
 /* BANNER */
 .huge-banner {
     height: 500px;
-    position:relative;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 .teaser {
@@ -93,31 +106,14 @@ h1 {
 }
 
 /* MAIN CONTENT */
-main {
-    padding-bottom: 15px;
-    margin-bottom: 10px;
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    background-color:#0087ff;
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
-}
 
-main div {
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    background-color:#abcfe7;
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
-}
-
-.main-header {
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    height: 80px;
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+.main-header h2 {
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .col {
     float: left;
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    height: 350px;
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
 }
 
 .left-bar,
@@ -125,15 +121,33 @@ main div {
     width: 20%;
 }
 
-.main-content {
+.col-img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+main h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-content-bar {
     width:56%;
     margin: 0 2%;
 }
 
 /* FOOTER */
 footer {
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    height: 40px;
-    background-color:#8801fe;
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+    text-align: center;
+    padding-top : 20px;
+    margin-bottom: 10px;
+}
+
+footer .common-text {
+    color:black;
+}
+
+footer .common-text::after {
+    content: " \2764";
+    color: red;
+
 }
