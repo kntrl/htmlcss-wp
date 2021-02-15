@@ -5,6 +5,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -12,8 +16,8 @@ box-sizing: border-box;
 }
 
 /* margin for header,banner and main-nav*/
-.mb-20px {
-    margin-bottom: 20px;
+.mb-30px{
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -25,11 +29,24 @@ box-sizing: border-box;
 }
 
 /* HEADER */
-header {
-    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
-    height: 80px;
-    background-color:#e579e6;   
-    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+/* logo*/
+header .logo img {
+    width: 150px;
+}
+
+/*nav*/
+.header-nav .menu {
+    list-style: none;
+}
+
+.header-nav .menu .menu-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #8a8a8a;
 }
 
 /* BANNER */
