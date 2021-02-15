@@ -1,0 +1,87 @@
+/* GLOBAL AND COMMONS*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* margin for header,banner and main-nav*/
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    width:80%;
+    margin: auto;
+    padding: 15px 0;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+/* HEADER */
+header {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    height: 80px;
+    background-color:#e579e6;   
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+/* BANNER */
+.huge-banner {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    height: 300px;
+    background-color: #e1d67a;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+/* MAIN CONTENT */
+main {
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    background-color:#0087ff;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+main div {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    background-color:#abcfe7;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+.main-header {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    height: 80px;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+.col {
+    float: left;
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    height: 350px;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
+
+.left-bar,
+.right-bar {
+    width: 20%;
+}
+
+.main-content {
+    width:56%;
+    margin: 0 2%;
+}
+
+/* FOOTER */
+footer {
+    /* TEST CODE -  NEEDS REVIEW BEFORE DEPLOY*/
+    height: 40px;
+    background-color:#8801fe;
+    /* TEST CODE ENDS -  NEEDS REVIEW BEFORE DEPLOY*/
+}
